@@ -1,0 +1,28 @@
+Every time a new game is created, all Job positions will be created and assigned to a randomized created NPC Player.
+Once the game begins, at the end of every shift, the NPC will update himself, with:
+  - The amount of money earned
+  - The experience obtained at work
+  - The effort applied (randomly after every shift)
+  - If the requirements are met, the NPC will keep the job, if not, the possibility of getting fired will increase at a 5% per day.
+  - If the NPC is fired, it will be on a state of -Jobless- for a period of 3 days and randomly will occupy the next empty job if the player is not applying for it too.
+  - If the player is applying for a job, he will compete against the other Applicant NPCs for the position.
+  - The NPC or in the case of the Player, with better possibilities, will obtain the job.
+  
+Job application and Interviews:
+  - After applying for a Job, the Player or the NPCs will have to do an Interview imediately the next day to obtain the position.
+  - Depending on the requirements and the level of the Abilities/Skills or the Traits, the probabilites of getting the job will be higher.
+  - With a system of points, the NPC/PC, with more points will obtain the position.
+  
+Jobs will be payed allways by hours worked. 
+By the enf of the week (allways on Fridays), depending on the effort of the NPC/PC, there's a possibility of a Bonus, payment increase, decrease or getting fired. 
+There will be random events during working hours, that will make the player take decisions that will affect possitively or negatively the position.
+There will be an Event, that will either make the player work more hours (paid) or less hours (paid).
+
+Vacations:
+Every week the player will obtain 1 vacation day (not paid). These are accumulable and the player will decide when to take them, allways asking in advance, 
+that way the company will have time to replace the player.
+
+Jobs and positions without worker:
+These jobs will automatically be filled with "Substitute" NPCs that in case of not having contact with the player, will be deleted after the Job.
+In case of contact, the Substitute will automatically be created as a NPC, and will be added to the game.
+  
